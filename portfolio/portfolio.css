@@ -1,53 +1,68 @@
-body{
-    background-image: url("lineDrawing.jpg");
-    background-size:1300px 800px;
+.body{
+    /* background-image: url("background.jpg"); 
+    background-size: auto;
     background-repeat: no-repeat;
-    background-color: white;
-    background-position: 100% 28%;
-    
-
-
+     */
 
     display: grid;
     grid-template-areas: 
         "h h h h h h h h"
-        ". . a a a a . ."
-        ". . f f f f . ."
-        ". . . . . . . ."
-        ". . . . . . . ."
-        ". . . . . . . e";
+        "b . . . . . . ."
+        "r . . f . . . ."
+        "e e e . . . . ."
+        ". . . . . . . .";
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-row-gap: 5px;
+    grid-template-rows: repeat(5, 1fr);
+    grid-row-gap: 3px;
     grid-column-gap: 10px;
     height:100%;
     margin: 0;
-
-    
 }
-
- 
 header, footer, article, nav, div{
     color:black;
    
     padding: 1.2em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .pageHeader{
-    grid-area: f;
+    grid-area: h;
     font-size: 20px;
     text-align: right;
     padding: 5px;
-}
-h1{
-    padding-bottom: 20px;
     
+}
+.bodoni{
+    grid-area: b;
+    position: absolute;
+}
+.form{
+    grid-area: f;
+    position: absolute;
+    padding-left: 55%;
+    border: #33a59a;
+}
+.exlibris{
+    grid-area: e;
+    position: relative;
+    padding-left: 58%;
+    padding-top: 31%;
 }
 
-.pageFooter{
-    grid-area: e;
-    
+.futura{
+    position: relative;
+    padding: 30px;
+    padding-top: -60%;
 }
+img { 
+    border:3px solid #8b473e;
+ }
+
+
+    
+    
+
+
+
 .button-one {
     background: #dfbf58;
 }
@@ -77,10 +92,4 @@ h1{
 .button-two:hover,
 .button-three:hover {
     background: #fff;
-}
-.link{
-    color: black;
-}
-.link:hover{
-    color: darkgray
 }

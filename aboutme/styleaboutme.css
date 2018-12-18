@@ -53,32 +53,34 @@ header, footer, article, nav, div{
   /* .button:active ~ .image{
     display: block; */
 
-.button-one {
-    background: #dfbf58;
-}
-.button-two {
-    background: #8b473e;
-}
-.button-three {
-    background: #33a59a;
-}
-.button-one,
-.button-two,
-.button-three {
-    color: #1d1d1d;
-    display: inline-block;
-    border-radius: 0;
-    padding: 10px 18px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 700;
-    letter-spacing: 1px;
-    -moz-transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
-}
-.button-one:hover,
-.button-two:hover,
-.button-three:hover {
-    background: #fff;
-}
+    .button-one {
+        background: #dfbf58;
+    }
+    .button-two {
+        background: #8b473e;
+    }
+    .button-three {
+        background: #33a59a;
+    }
+    .button-one,
+    .button-two,
+    .button-three {
+        color: #1d1d1d;
+        display: inline-block;
+        border-radius: 0;
+        padding: 10px 18px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 700;
+        letter-spacing: 1px;
+        -moz-transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s;
+        position: relative;
+    }
+    .button-one:hover,
+    .button-two:hover,
+    .button-three:hover {
+        background: #fff;
+    }
+
