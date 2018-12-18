@@ -1,1 +1,4 @@
 # finalPortfolioSite
+My portfoli site is designed to give the viewers and potenrial clients or employees a feel for me as a designer. I incoperated strong linear lines with in my site to represent the more digital and structured side of my designs. By adding a more vibrant color plalette, I was able to contrast the structure of the linear lines with a more playful vibe. Overall I hope the design of my site creates a welcoming and inviting atmosphere to all who visit while representing me as an artist. 
+
+This project has taught me the foundations of coding using CSS and HTML. I learned that there are hundreds of ways to get the same outcome. I also learned how one typo could change or break the whole code. The time and dilligence that is needed to code is one of the most importan things I learned this semester and how if you want it done right alot of outside research and time needs to be put into it. 
